@@ -7,3 +7,4 @@ for i in range(n):
     print(sp[i][::-1])
 print('goodbye')
 print('hi')
+print('hello')
