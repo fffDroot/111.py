@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>618</width>
+    <height>598</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <stylestrategy>PreferAntialias</stylestrategy>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>140</y>
+      <width>160</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>ЦВЕТ №1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButtonB1">
+       <property name="text">
+        <string>Синий</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">bg1</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButtonR1">
+       <property name="text">
+        <string>Красный</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">bg1</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButtonG1">
+       <property name="text">
+        <string>Зелёный</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">bg1</string>
+       </attribute>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>140</y>
+      <width>160</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>ЦВЕТ №2</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButtonB2">
+       <property name="text">
+        <string>Синий</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">bg2</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButtonR2">
+       <property name="text">
+        <string>Красный</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">bg2</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButtonG2">
+       <property name="text">
+        <string>Зелёный</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">bg2</string>
+       </attribute>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>140</y>
+      <width>160</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="font">
+        <font>
+         <pointsize>20</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>ЦВЕТ №3</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButtonB3">
+       <property name="text">
+        <string>Синий</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">bg3</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButtonR3">
+       <property name="text">
+        <string>Красный</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">bg3</string>
+       </attribute>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radioButtonG3">
+       <property name="text">
+        <string>Зелёный</string>
+       </property>
+       <attribute name="buttonGroup">
+        <string notr="true">bg3</string>
+       </attribute>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="Button">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>330</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сделать флаг</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="output">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>410</y>
+      <width>361</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>618</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="bg1"/>
+  <buttongroup name="bg2"/>
+  <buttongroup name="bg3"/>
+ </buttongroups>
+</ui>
