@@ -8,3 +8,4 @@ for i in range(n):
 print('goodbye')
 print('hi')
 print('hello')
+print('test4')
